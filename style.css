@@ -1,0 +1,62 @@
+body {
+    background: radial-gradient(circle, #bbc7dc, #fffdfb);
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-size: 3rem;
+    margin: 0 10px;
+}
+
+button {
+    padding: 5px 50px;
+    margin: 20px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+    cursor: pointer;
+}
+
+button.start {
+    background: #09ff00;
+    color: #ffff;
+
+}
+
+button.stop {
+    background-color: #f11009;
+    color: #ffff;
+}
+
+button.restart {
+    background-color: #ff8800;
+    color: #ffff;
+}
+
+button.start:active {
+    background-color: #000000;
+}
+
+button.stop:active {
+    background-color: #000000;
+}
+
+button.restart:active {
+    background-color: #000000;
+}
